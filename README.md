@@ -24,6 +24,10 @@
 >
 > Microsoft Agent Framework (MAF) is the enterprise‑ready successor to AutoGen. Microsoft Agent FrameworkAF in now available as a production-ready release: stable APIs, and a commitment to long-term support. Whether you're building a single assistant or orchestrating a fleet of specialized agents, Microsoft Agent Framework 1.0 gives you enterprise-grade multi-agent orchestration, multi-provider model support, and cross-runtime interoperability via A2A and MCP.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> This fork preserves the <a href="https://github.com/microsoft/autogen">upstream project</a>’s abstractions and examples for multi-agent collaboration and human participation. Reusing these patterns can reduce custom orchestration code and make experiments easier to compare. Its practical value is established framework reuse; the README’s maintenance and migration guidance should inform adoption, and multi-agent execution does not automatically reduce model calls or total computation.</sub>
+<!-- impact-note:end -->
+
 ## Installation
 
 AutoGen requires **Python 3.10 or later**.
